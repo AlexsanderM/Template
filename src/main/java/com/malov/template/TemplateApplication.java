@@ -21,6 +21,7 @@ public class TemplateApplication {
     @PostConstruct
     void TemplateApplication() {
         streamTemplate.flatMapStream();
+        streamTemplate.getMinForStream();
 
 
     }
